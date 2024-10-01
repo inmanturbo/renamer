@@ -13,7 +13,7 @@ class RenameCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'rename {app-path?} {--from-vendor-namespace=} {--to-vendor-namespace=} {--from-app-namespace=} {--to-app-namespace=} {--name=}';
+    protected $signature = 'rename-app {app-path?} {--from-vendor-namespace=} {--to-vendor-namespace=} {--from-app-namespace=} {--to-app-namespace=} {--name=}';
 
     /**
      * The console command description.
