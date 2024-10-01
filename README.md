@@ -9,7 +9,7 @@ composer require inmanturbo/renamer
 ```
 
 ```bash
-php artisan rename path/to/basepath --from-vendor-namespace=<from-vendor> --to-vendor-namespace=<to-vendor> --from-app-namespace=<from-app> --to-app-namespace=<to-app> --name=<new-package-name>
+php artisan rename-app path/to/basepath --from-vendor-namespace=<from-vendor> --to-vendor-namespace=<to-vendor> --from-app-namespace=<from-app> --to-app-namespace=<to-app> --name=<new-package-name>
 ```
 
 This will only work if you already have a vendor namespace. For renaming `App` namespace first use [tandem](https://github.com/inmanturbo/tandem).
